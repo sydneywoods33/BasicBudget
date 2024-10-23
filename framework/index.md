@@ -1,45 +1,47 @@
-
-
-## BasicBudget App | Architectural Decision Record
+ 
+# Architectural Decision Record
 
 ### Team Members
 - Liam Woods (liamjwoods5)
 
 - Sydney Woods (sydneywoods33)
 
+---
 
-### context
-phase 2 of CPRG303h project, deciding framework and architecture 
+Context | Phase 2 of CPRG303h project, deciding framework and architecture. 
+
+---
+
 
 ## Decisions 
 
 ### Target devices
 
-- issue: Who will the project apply to (audience wise)
+- issue: Who will the project apply to (audience-wise)?
 
 - decision: Android (devices and emulators)
 
-- status: decided
+- status: Decided
 
 ### CSS Framework
 
-- issue: which method is most familiar to team members and works best with application compatability?
+- issue: Which method is most familiar to team members and works best with application compatibility?
 
 - decision: Bootstrap
 
-- status: decided
+- status: Decided
 
 ### Development Framework
 
-- issue: need to decide on a framework which is familiar to team members and will reflect application of learning from CPRG303H course, while having minimal errors and compatability with Android Apps
+- issue: Need to consider and decide on a framework that is familiar to team members and will reflect the application of learning from the CPRG303H course, while having minimal errors and compatibility with Android Apps.
 
 - decision: React Native Expo
 
-- status: decided
+- status: Decided
 
 ### Navigation strategy
 
-- issue: How will application layout/UI successfully implement all necessary functionalities with appropriate styling and user familiarity
+- issue: How will the application layout/UI successfully implement all necessary functionalities with appropriate styling and user familiarity?
 
 - decision: single main screen, include navigation bar on side or bottom of app layout
 
@@ -47,15 +49,15 @@ phase 2 of CPRG303h project, deciding framework and architecture
 
 ### hardware
 
-- issue: what hardware will be most easily accessible to team member devs to compile the application
+- issue: What hardware will be most easily accessible to team member developers when compiling the application?
 
-- decision: local machine'screen
+- decision: Local Machine
 
-- status: decided
+- status: Decided
 
 ### Database storage
 
-- issue: how/when will database be implemented to improve performance of the application, is it familiar to devs and secure for project?
+- issue: How/when will the database be implemented to improve the performance of the application, is it familiar to devs and secure for the project? Is the implementation of a database necessary for the project to work?
 
 - decision: MariaDB, maybe Apex?
 
