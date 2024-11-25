@@ -1,0 +1,1 @@
+// render splashScreen to open when app initially loads
