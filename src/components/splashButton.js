@@ -1,3 +1,36 @@
-// button on splash screen, navigates to Main input screen
+import React from "react";
+import { TouchableOpacity, StyleSheet, Text, View } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 
-//button is #8FCCAF (lighter green) background,  border/text in #43A476 (darker green) "Build your Budget"
+const SplashButton = () => {
+  const navigation = useNavigation();
+
+  return (
+    <View style={styles.container}>
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => navigation.navigate("MainInputScreen")}>
+        <Text style={styles.buttonText}>Build your Budget</Text>
+      </TouchableOpacity>
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {},
+  button: {
+    backgroundColor: "#FFFFFF",
+    borderColor: "#FFFFFF",
+    borderWidth: 1,
+    borderRadius: 20,
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    alignItems: "center",
+  },
+  buttonText: {
+    color: "#000000",
+    fontSize: 16,
+  },
+});
+
+export default SplashButton;

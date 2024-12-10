@@ -2,6 +2,11 @@
   "expo": {
     "name": "BasicBudgetApp",
     "slug": "BasicBudgetApp",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "6ba71097-12d1-4700-bf18-1beb6a621c72"
+      }
+    }
   }
 }
